@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
           #1.
           s.name                   = "JTAdMobMediationObjc"
           #2. 單號支援 Google ads sdk v7
-          s.version                = "0.0.3"
+          s.version                = "0.0.4"
           #3.  
           s.summary                = "SDK AdMob Mediation Objc for iOS developer."
           #4.
