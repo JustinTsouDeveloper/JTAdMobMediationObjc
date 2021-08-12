@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
           #1.
           s.name                   = "JTAdMobMediationObjc"
           #2. 單號支援 Google ads sdk v7
-          s.version                = "0.0.7"
+          s.version                = "0.0.8"
           #3.  
           s.summary                = "SDK AdMob Mediation Objc for iOS developer."
           #4.
@@ -30,5 +30,5 @@ Pod::Spec.new do |s|
      
 
           s.pod_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
-          #s.user_target_xcconfig   = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+          s.user_target_xcconfig   = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
     end
