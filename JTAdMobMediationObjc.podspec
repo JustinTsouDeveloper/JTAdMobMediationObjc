@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
           #9.
           s.exclude_files          = "Classes/Exclude"
           s.vendored_frameworks    = "TrekSDKAdMobMediationObjc.framework"
+          s.frameworks          = "GoogleInteractiveMediaAds", "AotterTrek-iOS-SDK"
           #10.
           s.swift_version          = '4.2'
           s.libraries              = "c++"
