@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
           #10.
           s.swift_version          = '4.2'
 
-          s.dependency 'AotterTrek-iOS-SDK'
+          s.dependency 'AotterTrek-iOS-SDK','Google-Mobile-Ads-SDK'
 
           s.pod_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
           s.user_target_xcconfig   = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
