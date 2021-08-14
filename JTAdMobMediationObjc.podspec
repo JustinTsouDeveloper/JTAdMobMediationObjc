@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
           s.vendored_frameworks    = "TrekSDKAdMobMediationObjc.framework"
           #10.
           s.swift_version          = '4.2'
+          s.libraries              = "c++"
      
 
           s.pod_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
