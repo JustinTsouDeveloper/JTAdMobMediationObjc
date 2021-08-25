@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
           #1.
           s.name                   = "JTAdMobMediationObjc"
           #2. 單號支援 Google ads sdk v7
-          s.version                = "0.0.9-betaV71"
+          s.version                = "0.0.9-betaV72"
           #3.  
           s.summary                = "SDK AdMob Mediation Objc for iOS developer."
           #4.
@@ -28,8 +28,8 @@ Pod::Spec.new do |s|
           #10.
           s.swift_version          = '4.2'
 
-          s.dependency 'AotterTrek-iOS-SDK'
-          s.dependency 'Google-Mobile-Ads-SDK','8.8.0'
+          # s.dependency 'AotterTrek-iOS-SDK'
+          # s.dependency 'Google-Mobile-Ads-SDK','8.8.0'
 
           s.pod_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
           s.user_target_xcconfig   = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
